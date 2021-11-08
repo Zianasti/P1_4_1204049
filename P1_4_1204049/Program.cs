@@ -47,6 +47,9 @@ namespace P1_4_1204049
                         int f = Convert.ToInt32(Console.ReadLine());
                         Console.Write("\nDiagonal Persegi Panjang : " + (Math.Sqrt((e*e) + (f*f))) + "\n");
                         break;
+                    default:
+                        Console.WriteLine("Invalid Menu");
+                        break;
                 }
                 Console.WriteLine("\nKembali ke Menu Pilihan ? (Y/T)");
             }
